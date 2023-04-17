@@ -8,7 +8,7 @@ const NotFound = () => <h1>404.. This page is not found!</h1>;
 
 function App() {
   return (
-    <Router>
+    <Router basename="/altcademy-movie-finder">
       <Switch>
         <Route path="/" exact component={Home} />
 
