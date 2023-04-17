@@ -15,7 +15,7 @@ const Movie = (props) => {
     <div className="search">
       <div className="col-4 col-md-2 col-lg-1 mb-3">
         <Link to={`/movie/${imdbID}/`}>
-          <img src={Poster} className="img-fluid" />
+          <img src={Poster} className="img-fluid" alt="nothing-here" />
         </Link>
       </div>
 
