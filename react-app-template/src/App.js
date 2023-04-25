@@ -4,7 +4,7 @@ import "./App.css";
 import Home from "./components/Home";
 import Movie from "./components/Movie";
 
-const NotFound = () => <h1>404.. This page is not found</h1>;
+const NotFound = () => <h1>404.. This page is not foun</h1>;
 
 function App() {
   return (
